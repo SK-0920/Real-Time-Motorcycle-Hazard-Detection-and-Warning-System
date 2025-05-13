@@ -1,0 +1,4 @@
+from bing_image_downloader import downloader
+
+# Download 10 images of "cats"
+downloader.download("Road under low light", limit=50, output_dir="/Users/santhoshkumarg/Downloads/Projects/zTest_image_convertion/dataset/headlight beam", adult_filter_off=True, force_replace=False, timeout=60)
